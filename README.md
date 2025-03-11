@@ -37,7 +37,7 @@ A single-page web application for a wellness retreat and e-commerce site built w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jade-and-oak.git
+   git clone https://github.com/broepke/jade-and-oak.git
    cd jade-and-oak
    ```
 
@@ -75,9 +75,7 @@ This project is configured for deployment to AWS Amplify. To deploy:
 
 2. Run the deployment script:
    ```bash
-   npm run deploy
-   # or
-   yarn deploy
+   sh deploy.sh
    ```
 
 ## Future Enhancements
