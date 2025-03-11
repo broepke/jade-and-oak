@@ -9,13 +9,24 @@ lerna-debug.log*
 
 # Dependencies
 node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+
+# Build
 dist
 dist-ssr
 *.local
+build
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
@@ -24,34 +35,12 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment files
+# Environment variables
 .env
-.env.*
-!.env.example
-
-# Testing
-coverage
-
-# Production build
-build
-
-# Temporary files
-*.tmp
-*.temp
-.cache
-
-# TypeScript
-*.tsbuildinfo
-
-# Vite
-.vite
-
-# AWS credentials and config
-.aws
-aws.config.js
-
-# Local development overrides
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# AWS
+deployment.zip
